@@ -6,8 +6,8 @@ const config = {
 
 	kit: {
 		adapter: adapterStatic ({
-			pages: 'build',
-			assets: 'build',
+			pages: '../kirandulas-blog-compiled',
+			assets: '../kirandulas-blog-compiled',
 			fallback: null
 		}),
 		target: '#svelte'

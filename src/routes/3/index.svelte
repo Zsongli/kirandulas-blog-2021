@@ -2,7 +2,7 @@
 	import Card from "$lib/components/Card.svelte";
 </script>
 
-<h1 class="text-5xl text-center max-w-max m-auto mt-20">Harmadik nap</h1>
+<h1 class="text-5xl text-center max-w-max m-auto mt-20 font-semibold">Harmadik nap</h1>
 
 <div style="max-width: 2560px;" class="flex items-center justify-evenly flex-wrap mt-20 m-auto">
 	<Card title="Füzér vára" bottomText="Füzér település">

@@ -2,10 +2,10 @@
 	import Card from "$lib/components/Card.svelte";
 </script>
 
-<h1 class="text-5xl text-center max-w-max m-auto mt-20">Első nap</h1>
+<h1 class="text-5xl text-center max-w-max m-auto mt-20 font-semibold">Első nap</h1>
 
 <div style="max-width: 2560px;" class="flex items-center justify-evenly flex-wrap mt-20 m-auto">
-	<Card title="Tanösvények" bottomText="Hollókő">
+	<Card title="Tanösvények" bottomText="Hollókő" href="/1/tanosveny">
 		<div
 			style="background-image: url(/img/1/tanosveny/5.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
