@@ -4,8 +4,8 @@
 	import { faSun, faMoon, faBars } from "@fortawesome/free-solid-svg-icons";
 	import DarkMode, { DarkMode_enabled } from "$lib/stores/darkMode";
 
-	var navDropdownOpen = false;
-	const navDropdownPages: { title: string; location: string; href: string }[][] = [
+	var dropdownOpen = false;
+	const dropdownPages: { title: string; location: string; href: string }[][] = [
 		[
 			{ title: "Tanösvények", location: "Hollókő", href: "#" },
 			{ title: "Falumúzeum", location: "Hollókő", href: "#" },
@@ -22,25 +22,35 @@
 		[
 			{ title: "Füzér vára", location: "Füzér település", href: "#" },
 			{ title: "Csónakázás", location: "Lillafüred", href: "#" },
-			{ title: "Anna-barlang", location: "Lillafüred", href: "#" },
+			{ title: "Lillafüredi vízesés", location: "Lillafüred", href: "#" },
 			{ title: "Bobpálya", location: "Miskolctapolca", href: "#" }
 		]
 	];
+
+	var dropdownToggleBtn;
 </script>
 
-<nav class="p-3 border-b mb-5 flex items-center justify-between">
+<nav style="box-shadow: 0px 1px 7px 0px;" class="p-3 border-b mb-5 flex items-center justify-between">
 	<div id="left" class="flex items-center justify-evenly">
 		<button
 			id="dropdown-toggle"
 			class="mr-5 p-2 bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600 rounded"
 			on:click={() => {
-				navDropdownOpen = !navDropdownOpen;
+				dropdownOpen = !dropdownOpen;
 			}}
+			bind:this={dropdownToggleBtn}
 		>
 			<SvelteFa icon={faBars} />
 		</button>
 		<div id="dropdown" class="relative">
-			<NavDropdown isOpen={navDropdownOpen} pages={navDropdownPages} />
+			<NavDropdown
+				exclude={[dropdownToggleBtn]}
+				isOpen={dropdownOpen}
+				pages={dropdownPages}
+				on:close={() => {
+					dropdownOpen = false;
+				}}
+			/>
 		</div>
 
 		<a id="branding" href="/" class="text-xl p-2">Tanulmányi Kirándulás Blog</a>
@@ -59,9 +69,3 @@
 	</div>
 </nav>
 <slot />
-
-<style lang="postcss">
-	nav {
-		box-shadow: 0px 1px 7px 0px;
-	}
-</style>

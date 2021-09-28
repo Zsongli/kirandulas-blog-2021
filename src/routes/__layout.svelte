@@ -25,7 +25,7 @@
 		<h1 class="uppercase font-bold text-2xl m-auto max-w-max mb-6">Szent László Gimnázium</h1>
 		<div class="w-1/2 flex flex-wrap justify-evenly items-center m-auto text-center max-w-screen-xl">
 			<div class="m-4 text-lg">
-				A forráskód nyilvánosan elérhető <a class="underline" href="https://github.com/">Github</a
+				A forráskód nyilvánosan elérhető <a class="underline" href="https://github.com/Zsongli/kirandulas-blog">Github</a
 				>-on.
 			</div>
 			<div class="m-4 text-lg">
