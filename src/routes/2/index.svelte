@@ -10,7 +10,7 @@
 			style="background-image: url(/img/2/templom/25.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
-			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3">
+			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, at? Sapiente nihil quos
 				quisquam. Doloribus obcaecati suscipit incidunt dolore ipsam.
 			</p>
@@ -21,7 +21,7 @@
 			style="background-image: url(/img/2/nyomda/31.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
-			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3">
+			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis distinctio voluptatum
 				recusandae aliquam architecto fugit animi culpa facilis eum quasi.
 			</p>
@@ -32,7 +32,7 @@
 			style="background-image: url(/img/2/boldogko/35.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
-			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3">
+			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut rem totam dignissimos repellat
 				id ratione, facilis vero architecto excepturi quas.
 			</p>
@@ -43,7 +43,7 @@
 			style="background-image: url(/img/2/kollegium/42.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
-			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3">
+			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magni quisquam. Culpa temporibus atque distinctio nulla doloremque iusto veritatis consectetur.
 			</p>
 		</div>
@@ -53,7 +53,7 @@
 			style="background-image: url(/img/2/muzeum/55.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
-			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3">
+			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nam error debitis cum delectus deleniti cupiditate officia amet aliquam blanditiis!
 			</p>
 		</div>

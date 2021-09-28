@@ -10,7 +10,7 @@
 			style="background-image: url(/img/3/fuzer/61.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
-			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3">
+			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos at totam facilis
 				culpa est voluptate corrupti hic ea dolorum?
 			</p>
@@ -21,7 +21,7 @@
 			style="background-image: url(/img/3/csonakazas/0.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
-			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3">
+			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate id iste delectus
 				excepturi enim ipsa at molestiae aliquam modi nihil?
 			</p>
@@ -32,7 +32,7 @@
 			style="background-image: url(/img/3/vizeses/0.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
-			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3">
+			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium nostrum dicta
 				voluptatum rerum. Error excepturi atque possimus saepe? Possimus, autem.
 			</p>
@@ -43,7 +43,7 @@
 			style="background-image: url(/img/3/bob/0.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
-			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3">
+			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non asperiores rem illo quos optio
 				quod ullam, quaerat blanditiis reiciendis sapiente?
 			</p>

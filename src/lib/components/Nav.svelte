@@ -7,7 +7,7 @@
 	var dropdownOpen = false;
 	const dropdownPages: { title: string; location: string; href: string }[][] = [
 		[
-			{ title: "Tanösvények", location: "Hollókő", href: "#" },
+			{ title: "Tanösvény", location: "Hollókő", href: "/1/tanosveny" },
 			{ title: "Falumúzeum", location: "Hollókő", href: "#" },
 			{ title: "Baradla-barlang", location: "Aggtelek", href: "#" },
 			{ title: "Táborhely", location: "Telkibánya", href: "#" }
