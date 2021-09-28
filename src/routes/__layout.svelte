@@ -23,7 +23,7 @@
 
 	<Footer>
 		<h1 class="uppercase font-bold text-2xl m-auto max-w-max mb-6">Szent László Gimnázium</h1>
-		<div class="w-1/2 flex flex-wrap justify-evenly items-center m-auto">
+		<div class="w-1/2 flex flex-wrap justify-evenly items-center m-auto text-center max-w-screen-xl">
 			<div class="m-4 text-lg">
 				A forráskód nyilvánosan elérhető <a class="underline" href="https://github.com/">Github</a
 				>-on.
@@ -32,6 +32,7 @@
 				A webakalmazást a <a class="underline" href="https://kit.svelte.dev/">SvelteKit</a> keretrendszer
 				működteti.
 			</div>
+			<!-- svelte-ignore missing-declaration -->
 			<div
 				class="m-4 italic"
 				on:click={() => {
@@ -40,7 +41,7 @@
 					audio.play();
 				}}
 			>
-				A blogot készítette Horváth Ágnes és Mélykúti Ádám.
+				A blogot készítette Horváth Ági és Mélykúti Ádám.
 			</div>
 		</div>
 	</Footer>
@@ -53,7 +54,7 @@
 
 	#main {
 		min-height: 100vh;
-		padding-bottom: 300px;
+		padding-bottom: 28rem;
 		position: relative;
 		font-weight: 300;
 		font-family: "Source Sans Pro", sans-serif;

@@ -1,11 +1,31 @@
 <script lang="ts">
-	import NavDropdown from "./NavDropdown.svelte";
-	import NavDropdownLink from "./NavDropdownLink.svelte";
+	import NavDropdown from "$lib/components/NavDropdown.svelte";
 	import SvelteFa from "svelte-fa";
 	import { faSun, faMoon, faBars } from "@fortawesome/free-solid-svg-icons";
 	import DarkMode, { DarkMode_enabled } from "$lib/stores/darkMode";
 
 	var navDropdownOpen = false;
+	const navDropdownPages: { title: string; location: string; href: string }[][] = [
+		[
+			{ title: "Tanösvények", location: "Hollókő", href: "#" },
+			{ title: "Falumúzeum", location: "Hollókő", href: "#" },
+			{ title: "Baradla-barlang", location: "Aggtelek", href: "#" },
+			{ title: "Táborhely", location: "Telkibánya", href: "#" }
+		],
+		[
+			{ title: "Református templom", location: "Vizsoly", href: "#" },
+			{ title: "Nyomda", location: "Vizsoly", href: "#" },
+			{ title: "Boldogkő vára", location: "Boldogkőváralja", href: "#" },
+			{ title: "Kollégium könyvtár", location: "Sárospatak", href: "#" },
+			{ title: "A Magyar Nyelv Múzeuma", location: "Széphalom", href: "#" }
+		],
+		[
+			{ title: "Füzér vára", location: "Füzér település", href: "#" },
+			{ title: "Csónakázás", location: "Lillafüred", href: "#" },
+			{ title: "Anna-barlang", location: "Lillafüred", href: "#" },
+			{ title: "Bobpálya", location: "Miskolctapolca", href: "#" }
+		]
+	];
 </script>
 
 <nav class="p-3 border-b mb-5 flex items-center justify-between">
@@ -20,33 +40,10 @@
 			<SvelteFa icon={faBars} />
 		</button>
 		<div id="dropdown" class="relative">
-			<NavDropdown isOpen={navDropdownOpen}>
-				<h1 class="font-normal text-center pb-3 border-b">Programok</h1>
-				<div class="page mt-3">
-					<NavDropdownLink title="Tanösvények" location="Hollókő" href="#" />
-					<NavDropdownLink title="Falumúzeum" location="Hollókő" href="#" />
-					<NavDropdownLink title="Vöröstó" location="Aggtelek" href="#" />
-					<NavDropdownLink title="Szálláshely" location="Telkibánya" href="#" />
-				</div>
-
-				<div class="flex items-center justify-evenly mt-5">
-					<button id="prev" class="text-gray-500 hover:text-gray-800 dark:hover:text-gray-300"
-						>◀</button
-					>
-					<span class="text-gray-500">1. nap</span>
-					<button id="next" class="text-gray-500 hover:text-gray-800 dark:hover:text-gray-300"
-						>▶</button
-					>
-				</div>
-			</NavDropdown>
+			<NavDropdown isOpen={navDropdownOpen} pages={navDropdownPages} />
 		</div>
 
-		<a
-			id="branding"
-			href="/"
-			class="text-xl p-2"
-			>Tanulmányi Kirándulás Blog</a
-		>
+		<a id="branding" href="/" class="text-xl p-2">Tanulmányi Kirándulás Blog</a>
 	</div>
 
 	<div id="right" class="flex items-center justify-around">
@@ -63,12 +60,8 @@
 </nav>
 <slot />
 
-<style>
+<style lang="postcss">
 	nav {
 		box-shadow: 0px 1px 7px 0px;
-	}
-
-	.page {
-		@apply grid grid-cols-2 gap-y-2 gap-x-10 relative;
 	}
 </style>

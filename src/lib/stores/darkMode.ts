@@ -2,14 +2,12 @@ import { writable } from "svelte/store";
 
 namespace DarkMode {
 	export function enable() {
-		console.log("enable");
 		DarkMode_enabled.set(true);
 		document.documentElement.classList.add("dark");
 		localStorage.setItem("dark", "true");
 	}
 
 	export function disable() {
-		console.log("disable");
 		DarkMode_enabled.set(false);
 		document.documentElement.classList.remove("dark");
 		localStorage.setItem("dark", "false");
