@@ -33,6 +33,7 @@
 <nav style="box-shadow: 0px 1px 7px 0px;" class="p-3 border-b mb-5 flex items-center justify-between">
 	<div id="left" class="flex items-center justify-evenly">
 		<button
+			aria-label="Lenyíló menü megnyitása"
 			id="dropdown-toggle"
 			class="mr-5 p-2 bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600 rounded"
 			on:click={() => {
@@ -58,6 +59,7 @@
 
 	<div id="right" class="flex items-center justify-around">
 		<button
+			aria-label="Téma változtatása"
 			id="dark-toggle"
 			class="p-2 bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600 rounded"
 			on:click={() => {

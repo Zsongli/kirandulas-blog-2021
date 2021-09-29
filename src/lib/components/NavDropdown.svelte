@@ -15,7 +15,8 @@
 {#if isOpen}
 	<ClickOutside {exclude} on:clickoutside={() => dispatch("close")}>
 		<div
-			class="w-80 h-auto border p-3 absolute top-full bg-gray-100 dark:bg-gray-800 border-gray-300 dark:border-gray-600 shadow-lg z-50"
+			style="z-index: 69420"
+			class="w-80 h-auto border p-3 absolute top-full bg-gray-100 dark:bg-gray-800 border-gray-300 dark:border-gray-600 shadow-lg"
 			transition:fly={{ y: -20, duration: 100 }}
 		>
 			<h1 class="font-normal text-center pb-3 border-b">Programok</h1>

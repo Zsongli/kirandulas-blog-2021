@@ -1,54 +1,56 @@
 <script lang="ts">
-	import Card from "$lib/components/Card.svelte";
+	import LinkedCard from "$lib/components/LinkedCard.svelte";
+	import SelectionPageTitle from "$lib/components/SelectionPageTitle.svelte";
 </script>
 
-<h1 class="text-5xl text-center max-w-max m-auto mt-20 font-semibold">Első nap</h1>
+<SelectionPageTitle>Első nap</SelectionPageTitle>
 
 <div style="max-width: 2560px;" class="flex items-center justify-evenly flex-wrap mt-20 m-auto">
-	<Card title="Tanösvény" bottomText="Hollókő" href="/1/tanosveny">
+	<LinkedCard title="Tanösvény" bottomText="Hollókő" href="/1/tanosveny">
 		<div
-			style="background-image: url(/img/1/tanosveny/5.jpg); height: 6.25rem;"
+			style="background-image: url(/img/1/tanosveny/5.jpg); height: 6.25rem; "
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
-			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora provident veniam
-				perferendis. Velit iste deserunt, eaque cupiditate ipsum odio iure.
+			<p class="backdrop-blur-sm backdrop-brightness-50 p-3 text-white h-full">
+				Ez az ösvény az Ófalu északi részén a kertek alatt halad, a Hollókői patak völgyében. A
+				kilátás falépcsőkről káprázatos, lejjebb ( ... )
 			</p>
 		</div>
-	</Card>
+	</LinkedCard>
 
-	<Card title="Falumúzeum" bottomText="Hollókő">
+	<LinkedCard title="Falumúzeum" bottomText="Hollókő">
 		<div
 			style="background-image: url(/img/1/falumuzeum/8.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ullam ex deleniti velit
-				nulla inventore doloribus non commodi voluptate deserunt!
+				Ez egy elégé kicsi paraszt ház. Az osztály épp, hogy csak befért. A múzeumban láttunk egy
+				kamrát, ahol régen mindig a mamák ( ... )
 			</p>
 		</div>
-	</Card>
-	<Card title="Baradla-barlang" bottomText="Aggtelek">
+	</LinkedCard>
+	<LinkedCard title="Baradla-barlang" bottomText="Aggtelek">
 		<div
 			style="background-image: url(/img/1/barlang/16.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus officia corrupti vitae
-				suscipit unde quasi aut expedita delectus similique reiciendis.
+				A barlangot már évszázadok óta látogatják, ez Magyarország legismertebb cseppkőbarlangja. 
+				Régen még sok órába ( ... )
 			</p>
 		</div>
-	</Card>
+	</LinkedCard>
 
-	<Card title="Táborhely" bottomText="Telkibánya">
+	<LinkedCard title="Táborhely" bottomText="Telkibánya">
 		<div
 			style="background-image: url(???); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita et! Nesciunt
-				consequuntur, facilis laborum quos eius cupiditate excepturi! Ullam.
+				consequuntur, facilis laborum quos eius.
+				<!-- TODO -->
 			</p>
 		</div>
-	</Card>
+	</LinkedCard>
 </div>

@@ -1,11 +1,12 @@
 <script lang="ts">
-	import Card from "$lib/components/Card.svelte";
+	import LinkedCard from "$lib/components/LinkedCard.svelte";
+	import SelectionPageTitle from "$lib/components/SelectionPageTitle.svelte";
 </script>
 
-<h1 class="text-5xl text-center max-w-max m-auto mt-20 font-semibold">Harmadik nap</h1>
+<SelectionPageTitle>Harmadik nap</SelectionPageTitle>
 
 <div style="max-width: 2560px;" class="flex items-center justify-evenly flex-wrap mt-20 m-auto">
-	<Card title="Füzér vára" bottomText="Füzér település">
+	<LinkedCard title="Füzér vára" bottomText="Füzér település">
 		<div
 			style="background-image: url(/img/3/fuzer/61.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
@@ -15,19 +16,19 @@
 				culpa est voluptate corrupti hic ea dolorum?
 			</p>
 		</div>
-	</Card>
-	<Card title="Csónakázás" bottomText="Lillafüred">
+	</LinkedCard>
+	<LinkedCard title="Csónakázás" bottomText="Lillafüred">
 		<div
 			style="background-image: url(/img/3/csonakazas/0.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate id iste delectus
-				excepturi enim ipsa at molestiae aliquam modi nihil?
+				A lillafüredi tóban csónakázni rendkívül megnyugtató dolog. A csónakokba 4-5-fő fért be. Az
+				evezéssel akadtak problémák, ( ... )
 			</p>
 		</div>
-	</Card>
-	<Card title="Lillafüredi vízesés" bottomText="Lillafüred">
+	</LinkedCard>
+	<LinkedCard title="Lillafüredi vízesés" bottomText="Lillafüred">
 		<div
 			style="background-image: url(/img/3/vizeses/0.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
@@ -37,8 +38,8 @@
 				voluptatum rerum. Error excepturi atque possimus saepe? Possimus, autem.
 			</p>
 		</div>
-	</Card>
-	<Card title="Bobpálya" bottomText="Miskolctapolca">
+	</LinkedCard>
+	<LinkedCard title="Bobpálya" bottomText="Miskolctapolca">
 		<div
 			style="background-image: url(/img/3/bob/0.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
@@ -48,5 +49,5 @@
 				quod ullam, quaerat blanditiis reiciendis sapiente?
 			</p>
 		</div>
-	</Card>
+	</LinkedCard>
 </div>
