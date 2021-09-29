@@ -5,3 +5,4 @@ node_modules
 /package
 package-lock.json
 .prettierrc
+/.vercel_build_output
