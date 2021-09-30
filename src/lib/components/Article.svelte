@@ -8,7 +8,7 @@
 </script>
 
 <div
-	in:fly={{ x: 100, duration: 500 }}
+	in:fly={{ x: -100, duration: 500 }}
 	style="max-width: 510px;"
 	class="w-4/6 bg-gray-100 dark:bg-gray-700 rounded-md shadow-lg p-8 m-6"
 >

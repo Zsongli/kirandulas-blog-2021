@@ -14,7 +14,7 @@
 	<div class="flex items-center justify-evenly flex-wrap">
         <Picture src="/img/1/tanosveny/5.jpg" alt="Állomás a tanösvényen">Állomás a tanösvényen</Picture>
 		<MapWidget name="Tanösvény" markerPos={{ lat: 47.9993771, lng: 19.5854938 }} />
-        <Picture src="https://kirandulastippek.hu/images/news/article/zoom/p150-41.jpg" alt="Kép a tanösvényről" source="https://kirandulastippek.hu/images/news/article/zoom/p150-41.jpg">A tanösvény útja</Picture>
+        <Picture src="https://kirandulastippek.hu/images/news/article/zoom/p150-41.jpg" alt="A tanösvény útja" source="https://kirandulastippek.hu/images/news/article/zoom/p150-41.jpg">A tanösvény útja</Picture>
 	</div>
 	<Article nextUrl="/1/falumuzeum">
 		<p>

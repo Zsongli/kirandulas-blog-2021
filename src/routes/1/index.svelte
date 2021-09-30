@@ -18,7 +18,7 @@
 		</div>
 	</LinkedCard>
 
-	<LinkedCard title="Falumúzeum" bottomText="Hollókő">
+	<LinkedCard title="Falumúzeum" bottomText="Hollókő" href="/1/falumuzeum">
 		<div
 			style="background-image: url(/img/1/falumuzeum/8.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
@@ -29,7 +29,7 @@
 			</p>
 		</div>
 	</LinkedCard>
-	<LinkedCard title="Baradla-barlang" bottomText="Aggtelek">
+	<LinkedCard title="Baradla-barlang" bottomText="Aggtelek" href="/1/barlang">
 		<div
 			style="background-image: url(/img/1/barlang/16.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
@@ -41,7 +41,7 @@
 		</div>
 	</LinkedCard>
 
-	<LinkedCard title="Táborhely" bottomText="Telkibánya">
+	<LinkedCard title="Táborhely" bottomText="Telkibánya" href="/1/taborhely">
 		<div
 			style="background-image: url(???); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"

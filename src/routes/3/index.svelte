@@ -6,7 +6,7 @@
 <SelectionPageTitle>Harmadik nap</SelectionPageTitle>
 
 <div style="max-width: 2560px;" class="flex items-center justify-evenly flex-wrap mt-20 m-auto">
-	<LinkedCard title="Füzér vára" bottomText="Füzér település">
+	<LinkedCard title="Füzér vára" bottomText="Füzér település" href="/3/fuzer">
 		<div
 			style="background-image: url(/img/3/fuzer/61.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
@@ -17,7 +17,7 @@
 			</p>
 		</div>
 	</LinkedCard>
-	<LinkedCard title="Csónakázás" bottomText="Lillafüred">
+	<LinkedCard title="Csónakázás" bottomText="Lillafüred" href="/3/csonakazas">
 		<div
 			style="background-image: url(/img/3/csonakazas/0.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
@@ -28,7 +28,7 @@
 			</p>
 		</div>
 	</LinkedCard>
-	<LinkedCard title="Lillafüredi vízesés" bottomText="Lillafüred">
+	<LinkedCard title="Lillafüredi vízesés" bottomText="Lillafüred" href="/3/vizeses">
 		<div
 			style="background-image: url(/img/3/vizeses/0.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
@@ -39,7 +39,7 @@
 			</p>
 		</div>
 	</LinkedCard>
-	<LinkedCard title="Bobpálya" bottomText="Miskolctapolca">
+	<LinkedCard title="Bobpálya" bottomText="Miskolctapolca" href="/3/bob">
 		<div
 			style="background-image: url(/img/3/bob/0.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"

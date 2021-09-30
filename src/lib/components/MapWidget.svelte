@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from "svelte";
-	import { fly } from "svelte/transition";
+	import { cubicInOut } from "svelte/easing";
+	import { scale } from "svelte/transition";
 
 	export var name: string;
 	export var markerPos: { lat: number; lng: number };
@@ -32,7 +33,12 @@
 	});
 </script>
 
-<div in:fly={{duration:500, x: -100}} id={name} style="max-width: 80vw" class="w-96 h-96 rounded-md shadow-xl ring-2 ring-gray-400 ring-offset-1 m-8" />
+<div
+	in:scale={{ start: 0, duration: 500, easing: cubicInOut }}
+	id={name}
+	style="max-width: 80vw"
+	class="w-96 h-96 rounded-md shadow-xl ring-2 ring-gray-400 ring-offset-1 m-8"
+/>
 
 <style lang="postcss">
 	@import url("https://unpkg.com/leaflet@1.7.1/dist/leaflet.css");

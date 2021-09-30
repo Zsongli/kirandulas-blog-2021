@@ -8,22 +8,22 @@
 	const dropdownPages: { title: string; location: string; href: string }[][] = [
 		[
 			{ title: "Tanösvény", location: "Hollókő", href: "/1/tanosveny" },
-			{ title: "Falumúzeum", location: "Hollókő", href: "#" },
-			{ title: "Baradla-barlang", location: "Aggtelek", href: "#" },
-			{ title: "Táborhely", location: "Telkibánya", href: "#" }
+			{ title: "Falumúzeum", location: "Hollókő", href: "/1/falumuzeum" },
+			{ title: "Baradla-barlang", location: "Aggtelek", href: "/1/barlang" },
+			{ title: "Táborhely", location: "Telkibánya", href: "/1/taborhely" }
 		],
 		[
-			{ title: "Református templom", location: "Vizsoly", href: "#" },
-			{ title: "Nyomda", location: "Vizsoly", href: "#" },
-			{ title: "Boldogkő vára", location: "Boldogkőváralja", href: "#" },
-			{ title: "Kollégium könyvtár", location: "Sárospatak", href: "#" },
-			{ title: "A Magyar Nyelv Múzeuma", location: "Széphalom", href: "#" }
+			{ title: "Református templom", location: "Vizsoly", href: "/2/templom" },
+			{ title: "Nyomda", location: "Vizsoly", href: "/2/nyomda" },
+			{ title: "Boldogkő vára", location: "Boldogkőváralja", href: "/2/boldogko" },
+			{ title: "Kollégium könyvtár", location: "Sárospatak", href: "/2/kollegium" },
+			{ title: "A Magyar Nyelv Múzeuma", location: "Széphalom", href: "/2/muzeum" }
 		],
 		[
-			{ title: "Füzér vára", location: "Füzér település", href: "#" },
-			{ title: "Csónakázás", location: "Lillafüred", href: "#" },
-			{ title: "Lillafüredi vízesés", location: "Lillafüred", href: "#" },
-			{ title: "Bobpálya", location: "Miskolctapolca", href: "#" }
+			{ title: "Füzér vára", location: "Füzér település", href: "/3/fuzer" },
+			{ title: "Csónakázás", location: "Lillafüred", href: "/3/csonakazas" },
+			{ title: "Lillafüredi vízesés", location: "Lillafüred", href: "/3/vizeses" },
+			{ title: "Bobpálya", location: "Miskolctapolca", href: "/3/bob" }
 		]
 	];
 
