@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from "svelte";
-	import { fly, fade } from "svelte/transition";
+	import { fade } from "svelte/transition";
 	import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 	import SvelteFa from "svelte-fa";
 

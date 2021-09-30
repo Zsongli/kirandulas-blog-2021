@@ -22,7 +22,7 @@
 		[
 			{ title: "Füzér vára", location: "Füzér település", href: "/3/fuzer" },
 			{ title: "Csónakázás", location: "Lillafüred", href: "/3/csonakazas" },
-			{ title: "Lillafüredi vízesés", location: "Lillafüred", href: "/3/vizeses" },
+			{ title: "Lillafüredi-vízesés", location: "Lillafüred", href: "/3/vizeses" },
 			{ title: "Bobpálya", location: "Miskolctapolca", href: "/3/bob" }
 		]
 	];

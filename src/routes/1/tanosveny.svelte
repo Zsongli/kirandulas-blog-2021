@@ -12,7 +12,7 @@
 	class="bg-black bg-opacity-25 w-full mt-20 flex justify-evenly items-center flex-col shadow-xl p-5"
 >
 	<div class="flex items-center justify-evenly flex-wrap">
-        <Picture src="/img/1/tanosveny/5.jpg" alt="Állomás a tanösvényen">Állomás a tanösvényen</Picture>
+        <Picture src="/img/1/tanosveny/5.jpg" alt="A tanösvény vége">A tanösvény vége</Picture>
 		<MapWidget name="Tanösvény" markerPos={{ lat: 47.9993771, lng: 19.5854938 }} />
         <Picture src="https://kirandulastippek.hu/images/news/article/zoom/p150-41.jpg" alt="A tanösvény útja" source="https://kirandulastippek.hu/images/news/article/zoom/p150-41.jpg">A tanösvény útja</Picture>
 	</div>

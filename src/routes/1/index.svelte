@@ -43,7 +43,7 @@
 
 	<LinkedCard title="Táborhely" bottomText="Telkibánya" href="/1/taborhely">
 		<div
-			style="background-image: url(???); height: 6.25rem;"
+			style="background-image: url(/img/1/taborhely/0.jpg); height: 6.25rem;"
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">

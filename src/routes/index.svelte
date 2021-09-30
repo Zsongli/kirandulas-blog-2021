@@ -1,7 +1,7 @@
 <script lang="ts">
 	import HomepageBanner from "$lib/components/HomepageBanner.svelte";
 	import LinkedCard from "$lib/components/LinkedCard.svelte";
-	import { fly } from "svelte/transition";
+	import { fly, fade } from "svelte/transition";
 	import { onMount } from "svelte";
 
 	const slides = [
@@ -38,6 +38,7 @@
 {#if ready}
 	<HomepageBanner {slides}>
 		<div
+		in:fade={{duration: 500}}
 			class="font-medium text-6xl text-center p-5 rounded-md text-gray-200 z-10 bg-black bg-opacity-60 max-w-max w-5/6 transform -skew-x-6"
 		>
 			Üdvözlünk a kirándulási blogunkon!
@@ -78,9 +79,5 @@
 				</p>
 			</LinkedCard>
 		</div>
-		<span class="text-center max-w-max m-auto block mt-10 italic"
-			>Szeretnél egy bizonyos programról olvasni? A bal-felső sarokban található menüben
-			választhatsz.</span
-		>
 	</div>
 {/if}
