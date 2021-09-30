@@ -5,7 +5,13 @@
 	import Nav from "$lib/components/Nav.svelte";
 
 	var footer;
+
+	onMount(()=>{
+		footer.classList.remove("shake");
+	})
+
 	async function fart() {
+		console.log("fart")
 		const audio = new Audio("/nothing.mp3");
 		audio.playbackRate = 1.7;
 
@@ -18,6 +24,7 @@
 		});
 
 		footer.classList.remove("shake");
+		console.log("removed shake")
 	}
 
 	onMount(() => {
@@ -85,7 +92,7 @@
 				> keretrendszer működteti.
 			</div>
 			<!-- svelte-ignore missing-declaration -->
-			<div style="min-width: 150px;" class="m-4 italic" bind:this={footer} on:click={fart}>
+			<div style="min-width: 150px;" class="m-4 italic shake" bind:this={footer} on:click={fart}>
 				A blogot készítette Horváth Ági és Mélykúti Ádám.
 			</div>
 		</div>
