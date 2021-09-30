@@ -6,10 +6,6 @@
 
 	var footer;
 
-	onMount(()=>{
-		footer.classList.remove("shake");
-	})
-
 	async function fart() {
 		console.log("fart")
 		const audio = new Audio("/nothing.mp3");
@@ -28,6 +24,7 @@
 	}
 
 	onMount(() => {
+		footer.classList.remove("shake");
 		DarkMode.initialize();
 	});
 </script>
