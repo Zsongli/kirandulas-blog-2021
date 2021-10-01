@@ -12,8 +12,8 @@
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos at totam facilis
-				culpa est voluptate corrupti hic ea dolorum?
+				A vár egy domb tetejére épült, nagyjából fél kilométer magasra. Felfelé körülbelül félúton
+				az alsó várban találhatjuk magunkat ( ... )
 			</p>
 		</div>
 	</LinkedCard>
@@ -34,8 +34,8 @@
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium nostrum dicta
-				voluptatum rerum. Error excepturi atque possimus saepe? Possimus, autem.
+				A vízesés a 20. században mesterségesen lett kialakítva a Szinva folyóból és azóta is
+				Magyarország legnagyobb függőleges ( ... )
 			</p>
 		</div>
 	</LinkedCard>
@@ -45,8 +45,8 @@
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non asperiores rem illo quos optio
-				quod ullam, quaerat blanditiis reiciendis sapiente?
+				A bobpálya hossza nagyjából háromnegyed kilóméter és az ott töltött idő alatt háromszor
+				tudtunk lecsúszni, bár az idő nagyrésze ( ... )
 			</p>
 		</div>
 	</LinkedCard>

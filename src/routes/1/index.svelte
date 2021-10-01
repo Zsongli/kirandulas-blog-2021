@@ -47,9 +47,8 @@
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita et! Nesciunt
-				consequuntur, facilis laborum quos eius.
-				<!-- TODO -->
+				A szálláshelyünk egy kis erdős részen található Telkibányán, a helyi református templommal
+				szemben. Az udvaron ( ... )
 			</p>
 		</div>
 	</LinkedCard>

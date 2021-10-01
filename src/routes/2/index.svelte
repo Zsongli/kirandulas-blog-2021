@@ -34,8 +34,8 @@
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut rem totam dignissimos repellat
-				id ratione, facilis vero architecto excepturi quas.
+				A vár mögött mély történelem áll, amit a helyi idegenvezetők el is meséltek a látogatóknak.
+				Azonban a vár nem csak a ( ... )
 			</p>
 		</div>
 	</LinkedCard>
@@ -45,8 +45,8 @@
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magni quisquam. Culpa
-				temporibus atque distinctio nulla doloremque iusto veritatis consectetur.
+				A kollégium Magyarország egyik leghíresebb oktatási intézménye, hiszen rengeteg híres magyar
+				költő, írónak adott egykor otthont. ( ... )
 			</p>
 		</div>
 	</LinkedCard>
@@ -56,8 +56,8 @@
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nam error debitis cum
-				delectus deleniti cupiditate officia amet aliquam blanditiis!
+				Ez a múzeum Kazinczy Ferenc tiszteletére épült, aki a magyar nyelv megújításához való nagy
+				mennyiségű hozzájárulásáról híres. ( ... )
 			</p>
 		</div>
 	</LinkedCard>

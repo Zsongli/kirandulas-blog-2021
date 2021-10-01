@@ -36,7 +36,7 @@
 		class="w-screen h-screen fixed top-0 left-0 bg-gray-800 bg-opacity-50"
 	>
 		<div
-			style="max-width:95vw; max-height: 95vh;"
+			style="max-width:95vw;"
 			class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gray-300 dark:bg-gray-700 px-5 pt-10 pb-5 rounded-md shadow-xl"
 		>
 			<button

@@ -18,11 +18,10 @@
 	</div>
 	<Article prevUrl="/3/csonakazas" nextUrl="/3/bob">
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quisquam commodi alias tempore
-			reprehenderit et dolore? Ullam consequuntur ipsum earum provident, assumenda sit voluptatum
-			exercitationem ipsa numquam eaque molestias error saepe voluptate obcaecati fugit suscipit qui
-			soluta. Pariatur perferendis obcaecati culpa nostrum sed a cumque explicabo nemo voluptatum,
-			assumenda et?
+			A vízesés a 20. században mesterségesen lett kialakítva a Szinva folyóból és azóta is
+			Magyarország legnagyobb függőleges vízesése. Közvetlen mellette található az Anna-barlang
+			bejárata is, amit szintén érdemes meglátogatni. A helyszínre jellemző a sok korláthoz
+			rögzített szerelemlakat.
 		</p>
 	</Article>
 </div>

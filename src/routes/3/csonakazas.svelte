@@ -12,7 +12,7 @@
 	class="bg-black bg-opacity-25 w-full mt-20 flex justify-evenly items-center flex-col shadow-xl p-5"
 >
 	<div class="flex items-center justify-evenly flex-wrap">
-		<Picture src="/img/3/csonakazas/1.jpg" alt="Kép 1" source="Vánky Laura fotója" />
+		<Picture src="/img/3/csonakazas/1.jpg" alt="Kép 1" source="Vánky Laura" />
 		<MapWidget name="Csónakázás" markerPos={{ lat: 48.104817, lng: 20.621459 }} />
 		<Picture src="/img/3/csonakazas/0.jpg" alt="Kép 2" source="https://www.miskolc.hu/sites/default/files/latnivalo/elonezeti_kep/2018-02-18/15157/csonakazas_700x380_retina.jpg" />
 	</div>

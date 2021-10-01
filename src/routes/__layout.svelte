@@ -4,29 +4,42 @@
 	import Footer from "$lib/components/Footer.svelte";
 	import Nav from "$lib/components/Nav.svelte";
 
-	var footer;
-
-	async function fart() {
-		console.log("fart")
-		const audio = new Audio("/nothing.mp3");
-		audio.playbackRate = 1.7;
-
-		footer.classList.add("shake");
-
-		audio.play();
-
-		await new Promise<void>((resolve) => {
-			audio.onended = () => resolve();
-		});
-
-		footer.classList.remove("shake");
-		console.log("removed shake")
+	interface Fart {
+		url: string;
+		delay: number;
 	}
+
+	var footer;
 
 	onMount(() => {
 		footer.classList.remove("shake");
 		DarkMode.initialize();
 	});
+
+	const wetfart: Fart = {
+		url: "/wetfart.mp3",
+		delay: 500
+	};
+
+	const explosiveDiarrhea: Fart = {
+		url: "/explosivediarrhea.mp3",
+		delay: 1700
+	};
+
+	var doubleclicked = false;
+	async function fart(fart: Fart) {
+		const audio = new Audio(fart.url);
+		audio.playbackRate = 1;
+		setTimeout(() => footer.classList.add("shake"), fart.delay);
+
+		audio.play();
+
+		await new Promise<void>((resolve: () => void) => {
+			audio.onended = resolve;
+		});
+
+		footer.classList.remove("shake");
+	}
 </script>
 
 <svelte:head>
@@ -89,7 +102,22 @@
 				> keretrendszer működteti.
 			</div>
 			<!-- svelte-ignore missing-declaration -->
-			<div style="min-width: 150px;" class="m-4 italic shake" bind:this={footer} on:click={fart}>
+			<div
+				style="min-width: 150px;"
+				class="m-4 italic shake"
+				bind:this={footer}
+				on:dblclick={async () => {
+					doubleclicked = true;
+					await fart(explosiveDiarrhea);
+					doubleclicked = false;
+				}}
+				on:click={() => {
+					setTimeout(() => {
+						if (doubleclicked) return;
+						fart(wetfart);
+					}, 300);
+				}}
+			>
 				A blogot készítette Horváth Ági és Mélykúti Ádám.
 			</div>
 		</div>

@@ -20,10 +20,15 @@
 	</div>
 	<Article prevUrl="/2/muzeum" nextUrl="/3/csonakazas">
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quibusdam voluptatem quisquam.
-			Placeat aliquid, animi minima, optio, soluta fugiat eius maiores iusto cupiditate quos ullam
-			nobis asperiores. Vitae vel rem velit deserunt quod officiis, nobis accusamus modi dicta
-			praesentium aspernatur maxime ipsam error ab eaque cupiditate, laborum veniam. Et, eius.
+			A vár egy domb tetejére épült, nagyjából fél kilométer magasra. Felfelé körülbelül félúton az
+			alsó várban találhatjuk magunkat, ahol a jegyeket tudjuk megvásárolni. A várépület nemrégen
+			lett felújítva, így igazán friss élményt nyújt a látogatása. A falakon belül sok érdekesség
+			található, az ágyúktól kezdve a várkápolnán keresztül a kertig. A várkápolnán kívüli szoba
+			mozi-szerűen van berendezve, elől egy TV-vel, amin 3 rendkívül profin meganimált és narrált
+			kisfilm közül választhatunk, amik a vár történelmének különböző kategóriáiról szólnak. A felső
+			emeleten pedig egy múzeumnak berendezett helyiség található, amely sok interaktív feladattal
+			szórakoztat. Mindenképpen érdemes ellátogatni, az egyik legjobb tapasztalatot nyújtó
+			látogatható vár Magyarországon!
 		</p>
 	</Article>
 </div>

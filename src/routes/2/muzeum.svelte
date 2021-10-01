@@ -28,10 +28,14 @@
 	</div>
 	<Article prevUrl="/2/kollegium" nextUrl="/3/fuzer">
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quibusdam voluptatem quisquam.
-			Placeat aliquid, animi minima, optio, soluta fugiat eius maiores iusto cupiditate quos ullam
-			nobis asperiores. Vitae vel rem velit deserunt quod officiis, nobis accusamus modi dicta
-			praesentium aspernatur maxime ipsam error ab eaque cupiditate, laborum veniam. Et, eius.
+			Ez a múzeum Kazinczy Ferenc tiszteletére épült, aki a magyar nyelv megújításához való nagy
+			mennyiségű hozzájárulásáról híres. Az ő egykori birtokán helyezkedik el a múzeum, valamint
+			mellette egy mauzóleum is. A múzeumot egy hangulatos park veszi körül, középen egy
+			szökőkúttal, és Kazinczy családtagjainak sírjaival. Az épületen belül és azon kívül is érdekes
+			tények olvashatók Kazinczy Ferenc életéről, interaktív feladatokkal együtt. Egy fő érdekesség,
+			hogy megőrizték Kazinczy egyetlen hajtincsét, amit az épületben bárki megtekinthet, továbbá
+			fenttartanak egy "irodalmi herbáriumot" is, ahol a Kazinczy felesége által termesztett
+			gyógynövényfajtákat tartják.
 		</p>
 	</Article>
 </div>

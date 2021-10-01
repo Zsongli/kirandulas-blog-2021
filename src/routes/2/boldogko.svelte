@@ -20,10 +20,12 @@
 	</div>
 	<Article prevUrl="/2/nyomda" nextUrl="/2/kollegium">
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quibusdam voluptatem quisquam.
-			Placeat aliquid, animi minima, optio, soluta fugiat eius maiores iusto cupiditate quos ullam
-			nobis asperiores. Vitae vel rem velit deserunt quod officiis, nobis accusamus modi dicta
-			praesentium aspernatur maxime ipsam error ab eaque cupiditate, laborum veniam. Et, eius.
+			A vár mögött mély történelem áll, amit a helyi idegenvezetők el is meséltek a látogatóknak.
+			Azonban a vár nem csak a történetéről, hanem a rendkívüli kilátásáról is híres. Gyönyörű
+			látvány fogadott minket a tornyokban, ahonnan le lehetett látni egész Boldogkőváraljára.
+			Mindezeken kívül sok érdekesség található a várfalakon belül is, például a nagy kerék, ami a
+			malmot működtette, nagy valószínűséggel emberi energiával meghajtva, és a nyilvános ketrec,
+			ahova az elítélteket zárták.
 		</p>
 	</Article>
 </div>

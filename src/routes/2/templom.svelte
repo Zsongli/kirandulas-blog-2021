@@ -12,7 +12,7 @@
 	class="bg-black bg-opacity-25 w-full mt-20 flex justify-evenly items-center flex-col shadow-xl p-5"
 >
 	<div class="flex items-center justify-evenly flex-wrap">
-		<Picture src="/img/2/templom/24.jpg" alt="Restaurált freskó">Restaurált freskó</Picture>
+		<Picture src="/img/2/templom/24.jpg" alt="Restaurált freskó">Restaurált falfestmény a vakolat alól</Picture>
 		<MapWidget name="Vizsolyi Református Templom" markerPos={{ lat: 48.3839031, lng: 21.2160835 }} />
 		<Picture src="/img/2/templom/26.jpg" alt="A vizsolyi biblia hasonmása">A vizsolyi biblia hasonmása</Picture>
 	</div>

@@ -54,7 +54,7 @@
 			/>
 		</div>
 
-		<a id="branding" href="/" class="text-xl p-2">Tanulmányi Kirándulás Blog</a>
+		<a href="/" class="text-xl p-2">Tanulmányi Kirándulás Blog</a>
 	</div>
 
 	<div id="right" class="flex items-center justify-around">

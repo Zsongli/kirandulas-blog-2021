@@ -38,7 +38,7 @@
 {#if ready}
 	<HomepageBanner {slides}>
 		<div
-		in:fade={{duration: 500}}
+			in:fade={{ duration: 500 }}
 			class="font-medium text-6xl text-center p-5 rounded-md text-gray-200 z-10 bg-black bg-opacity-60 max-w-max w-5/6 transform -skew-x-6"
 		>
 			Üdvözlünk a kirándulási blogunkon!
@@ -60,22 +60,22 @@
 		<div class="flex justify-evenly items-center flex-wrap mt-7 m-auto max-w-screen-2xl">
 			<LinkedCard title="Első nap" bottomText="4 helyszín" href="/1">
 				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa dicta omnis harum
-					repudiandae quos, hic totam beatae ipsum dolores est.
+					A kalandunk itt kezdődik. Legelőször Hollókőre érkeztünk, majd megjártuk a Vörös-tói
+					középtúrát. A nap végére megismerkedhettünk a szálláshellyel.
 				</p>
 			</LinkedCard>
 
 			<LinkedCard title="Második nap" bottomText="5 helyszín" href="/2">
 				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error optio sit eligendi odit
-					deserunt non dolor, recusandae maxime perspiciatis modi.
+					Ez a nap volt a leghosszabb és legfárasztóbb, de egyben a legtartalmasabb is mind közül.
+					Meglátogattuk a kirándulás első várát, sőt, még nyomtattunk is.
 				</p>
 			</LinkedCard>
 
 			<LinkedCard title="Harmadik nap" bottomText="4 helyszín" href="/3">
 				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est aliquid dolore sapiente iure
-					deserunt animi, voluptates officia deleniti neque blanditiis!
+					Az utolsó nap a előző két fárasztó nap után a lenyugvásról szólt. Egészen addig, amíg el
+					nem mentünk bobozni. Utána újból le kellett nyugodnunk.
 				</p>
 			</LinkedCard>
 		</div>
