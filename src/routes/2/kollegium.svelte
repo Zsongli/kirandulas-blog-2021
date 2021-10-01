@@ -5,6 +5,10 @@
 	import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>Kollégiumkönyvtár</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/2/kollegium/42.jpg"
 	>A Sárospataki Református Kollégium könyvtára</BlogBanner
 >

@@ -5,6 +5,10 @@
 	import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>Bobpálya</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/3/bob/0.jpg">Bobpálya</BlogBanner>
 
 <div

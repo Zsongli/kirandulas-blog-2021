@@ -5,6 +5,10 @@
 	import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>Baradla-barlang</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/1/barlang/16.jpg">Baradla-barlang</BlogBanner>
 
 <div

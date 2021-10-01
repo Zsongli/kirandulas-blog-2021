@@ -5,6 +5,10 @@
 	import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>Csónakázás</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/3/csonakazas/0.jpg">Lillafüredi csónakázás</BlogBanner>
 
 <div

@@ -5,6 +5,10 @@
 	import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>Füzér vára</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/3/fuzer/61.jpg">Füzér vára</BlogBanner>
 
 <div

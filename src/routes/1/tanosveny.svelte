@@ -5,6 +5,10 @@
     import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>Tanösvény</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/1/tanosveny/5.jpg">Hollókői Tanösvény</BlogBanner>
 
 <div

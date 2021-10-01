@@ -5,6 +5,10 @@
 	import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>Táborhely</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/1/taborhely/0.jpg">Táborhely</BlogBanner>
 
 <div

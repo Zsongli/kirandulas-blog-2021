@@ -5,6 +5,10 @@
 	import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>A Magyar Nyelv Múzeuma</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/2/muzeum/55.jpg">A Magyar Nyelv Múzeuma</BlogBanner>
 
 <div

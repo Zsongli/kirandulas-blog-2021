@@ -43,7 +43,6 @@
 </script>
 
 <svelte:head>
-	<title>Kirándulás</title>
 	<style>
 		.dark ::-webkit-scrollbar-track {
 			background: #1f2937;

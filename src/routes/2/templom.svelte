@@ -5,6 +5,10 @@
 	import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>Vizsolyi templom</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/2/templom/25.jpg">Vizsolyi Református Templom</BlogBanner>
 
 <div

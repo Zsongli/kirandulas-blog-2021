@@ -3,6 +3,10 @@
 	import SelectionPageTitle from "$lib/components/SelectionPageTitle.svelte";
 </script>
 
+<svelte:head>
+	<title>Második nap</title>
+</svelte:head>
+
 <SelectionPageTitle>Második nap</SelectionPageTitle>
 
 <div style="max-width: 2560px;" class="flex items-center justify-evenly flex-wrap mt-20 m-auto">

@@ -5,6 +5,10 @@
 	import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>Falumúzeum</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/1/falumuzeum/8.jpg">Hollókői Falumúzeum</BlogBanner>
 
 <div

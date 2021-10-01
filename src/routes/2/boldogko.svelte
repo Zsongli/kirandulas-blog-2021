@@ -5,6 +5,10 @@
 	import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>Boldogkő vára</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/2/boldogko/35.jpg">Boldogkő vára</BlogBanner>
 
 <div

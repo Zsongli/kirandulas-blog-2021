@@ -5,6 +5,10 @@
 	import Picture from "$lib/components/Picture.svelte";
 </script>
 
+<svelte:head>
+	<title>Nyomda</title>
+</svelte:head>
+
 <BlogBanner backgroundUrl="/img/2/nyomda/31.jpg">Vizsolyi Nyomda</BlogBanner>
 
 <div

@@ -35,6 +35,10 @@
 	onMount(() => (ready = true));
 </script>
 
+<svelte:head>
+	<title>Főoldal</title>
+</svelte:head>
+
 {#if ready}
 	<HomepageBanner {slides}>
 		<div
