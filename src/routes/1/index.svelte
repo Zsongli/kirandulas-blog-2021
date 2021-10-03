@@ -28,7 +28,7 @@
 			class="absolute left-0 w-full bg-no-repeat bg-cover bg-center"
 		>
 			<p class="backdrop-blur-sm backdrop-brightness-50 h-full p-3 text-white">
-				Ez egy elégé kicsi paraszt ház. Az osztály épp, hogy csak befért. A múzeumban láttunk egy
+				Ez egy eléggé kicsi parasztház. Az osztály épp, hogy csak befért. A múzeumban láttunk egy
 				kamrát, ahol régen mindig a mamák ( ... )
 			</p>
 		</div>
