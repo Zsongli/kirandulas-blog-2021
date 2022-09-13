@@ -3,4 +3,4 @@
 > Iskolai projektmunka
 
 SvelteKit segítségével készül(t).
-[https://kirandulas.zsongli.cc]
+[https://kirandulas-2021.zsong.li]
